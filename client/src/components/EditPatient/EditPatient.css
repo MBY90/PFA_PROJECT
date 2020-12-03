@@ -1,0 +1,61 @@
+.btnShow Button {
+  padding-left: 15px;
+}
+.btnSave {
+  padding-left: 20px;
+}
+.header {
+  text-align: center;
+}
+button.close {
+  outline: none;
+  box-shadow: none;
+  color: whitesmoke;
+  text-shadow: none;
+}
+button.close:hover {
+  color: white;
+}
+.modal-content {
+  border: none;
+  border-radius: 15px;
+  width: 700px;
+  padding: 5px;
+}
+.modal-header {
+  border: 0.1px transparent;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 70px;
+}
+.modal-header .close {
+  margin-left: 0;
+}
+.modal-dialog {
+  margin-right: 525px;
+}
+.modal-body {
+  border-right: 2px solid skyblue;
+  border-left: 2px solid skyblue;
+}
+.modal-footer {
+  border-right: 2px solid skyblue;
+  border-left: 2px solid skyblue;
+  border-bottom: 2px solid skyblue;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+textarea {
+  padding: 5px;
+}
+.modal-title {
+  width: 600px;
+}
+.modal-title div p {
+  border-radius: 15px;
+}
+.modal-title div p:hover {
+  background-color: snow;
+  color: skyblue;
+  border: 2px solid skyblue;
+}

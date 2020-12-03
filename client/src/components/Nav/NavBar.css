@@ -1,0 +1,51 @@
+Button {
+  width: 75px;
+  outline: none;
+  box-shadow: none;
+}
+.btn button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn1,
+.btn2 {
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .navv {
+    font-size: 12px;
+    text-decoration: underline;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .btn1,
+  .btn2 {
+    font-size: 12px;
+    width: 60px;
+  }
+}
+.navbar-brand {
+  background-color: skyblue;
+  border-radius: 40%;
+  width: 75px;
+}
+.navbar-brand a {
+  color: whitesmoke;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 1px;
+}
+.bg-light {
+  height: 60px;
+}
+.logForm {
+  display: flex;
+}
+.btn2 {
+  margin-left: 20px;
+}
+.docEmail {
+  color: green;
+  margin-top: 5px;
+}
